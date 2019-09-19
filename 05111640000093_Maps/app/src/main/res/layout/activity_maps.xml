@@ -8,13 +8,13 @@
         android:id="@+id/fragment"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="486dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="245dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="-0dp"
         tools:context=".MapsActivity" />
@@ -64,5 +64,27 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="16dp"
         android:text="Go" />
+
+    <EditText
+        android:id="@+id/idLokasi"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idZoom"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Lokasi"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/idCari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idZoom"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp"
+        android:text="Cari" />
 
 </RelativeLayout>

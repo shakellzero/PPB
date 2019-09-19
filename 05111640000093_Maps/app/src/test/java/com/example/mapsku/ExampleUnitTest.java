@@ -1,4 +1,4 @@
-package com.example.googlemaps;
+package com.example.mapsku;
 
 import org.junit.Test;
 
